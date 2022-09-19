@@ -1,24 +1,20 @@
 #include "main.h"
 
 /**
- * puts2 - print character
- * @str: input string
- *
- * Description: prints character of a string, starting first
- * character
- * Return: Always (0)
+ * puts2 - print alternating chars of string
+ * @str: string
+ * Return: void
  */
 
 void puts2(char *str)
 {
 	int i;
 
+	i = 0;
 	while (str[i] != '\0')
 	{
 		if (i % 2 == 0)
-		{
 			_putchar(str[i]);
-		}
 		i++;
 	}
 	_putchar('\n');
