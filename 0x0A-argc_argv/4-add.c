@@ -12,8 +12,8 @@ int main(int argc, char *argv[])
 {
 	int c, d;
 	int n = 0;
-	
-	if(argc < 2)
+
+	if (argc < 2)
 	{
 		printf("0\n");
 		return (0);
