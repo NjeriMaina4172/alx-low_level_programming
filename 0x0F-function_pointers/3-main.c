@@ -25,8 +25,8 @@ int main(int argc, char *argv[])
 		exit(98);
 	}
 	operator = argv[2][0];
-	if ((operator != '*' && operator != '+' && operator != '_'
-			&& operator != '/'  && operator != '%') || argv[2][1] != '\0')
+	if ((operator != '*' && operator != '+' && operator != '-'
+				&& operator != '/'  && operator != '%') || argv[2][1] != '\0')
 	{
 		printf("Error\n");
 		exit(99);
