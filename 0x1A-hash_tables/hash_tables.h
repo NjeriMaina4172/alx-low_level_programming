@@ -2,7 +2,7 @@
 #define HASH_TABLES_H
 
 #include <stdlib.h>
-#include <string>
+#include <string.h>
 #include <stdio.h>
 
 /**
